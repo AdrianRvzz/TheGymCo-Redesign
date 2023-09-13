@@ -1,0 +1,71 @@
+[
+    {
+      "id": 1,
+      "src": "../images/gallery/riogrande/areadepesas.jpg",
+      "title": "Área de pesas",
+      "category": "pesas"
+    },
+      {
+      "id": 2,
+      "src": "../images/gallery/riogrande/areadepesas2.jpg",
+      "title": "Área de pesas 2",
+      "category": "pesas"
+    },{
+      "id": 3,
+      "src": "../images/gallery/riogrande/exterior.png",
+      "title": "Exterior",
+      "category": "servicios"
+    },  {
+      "id": 4,
+      "src": "../images/gallery/riogrande/frontdesk.jpg",
+      "title": "Front Desk",
+      "category": "servicios"
+    },
+      {
+      "id": 5,
+      "src": "lockers.jpg",
+      "title": "Lockers",
+      "category": "servicios"
+    },
+      {
+      "id": 6,
+      "src": "lounge.jpg",
+      "title": "Lounge 1",
+      "category": "servicios"
+    },
+      {
+      "id": 7,
+      "src": "lounge2.jpg",
+      "title": "Lounge 2",
+      "category": "servicios"
+    },
+      {
+      "id": 8,
+      "src": "pesas.png",
+      "title": "Área de pesas 3",
+      "category": "pesas"
+    },{
+      "id": 9,
+      "src": "salonusos.jpg",
+      "title": "Salon multiusos",
+      "category": "servicios"
+    },
+    {
+      "id": 10,
+      "src": "salonusos2.jpg",
+      "title": "Salon multiusos 2",
+      "category": "servicios"
+    },
+    {
+      "id": 11,
+      "src": "sanitizante.jpg",
+      "title": "Estación sanitizante",
+      "category": "servicios"
+    },
+    {
+      "id": 12,
+      "src": "sillonesmasajes.jpg",
+      "title": "Sillones de masajes",
+      "category": "servicios"
+    }
+  ]

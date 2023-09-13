@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/TheGymCo-Redesign/static/css/main.4a2ed050.css",
+    "main.js": "/TheGymCo-Redesign/static/js/main.91ee9b20.js",
+    "static/js/787.93d44e72.chunk.js": "/TheGymCo-Redesign/static/js/787.93d44e72.chunk.js",
+    "static/media/trailergymco.mp4": "/TheGymCo-Redesign/static/media/trailergymco.68cf1eb04ab4178d5a7f.mp4",
+    "static/media/trailerbeat.mp4": "/TheGymCo-Redesign/static/media/trailerbeat.e003435f28fbaa0e3b89.mp4",
+    "static/media/slider1.webp": "/TheGymCo-Redesign/static/media/slider1.b20ebcb6d2664c5823e0.webp",
+    "static/media/team.jpg": "/TheGymCo-Redesign/static/media/team.3e480abe4065c89ad13b.jpg",
+    "static/media/wallpaper.png": "/TheGymCo-Redesign/static/media/wallpaper.35122090b6377cbdc218.png",
+    "static/media/band2.png": "/TheGymCo-Redesign/static/media/band2.f2f16783f78799d4f6d6.png",
+    "static/media/beat.jpeg": "/TheGymCo-Redesign/static/media/beat.2e7937fe102b9b39de3c.jpeg",
+    "static/media/HelveticaNowDisplay-Bold.ttf": "/TheGymCo-Redesign/static/media/HelveticaNowDisplay-Bold.0604348678aea33011f3.ttf",
+    "static/media/HelveticaNowDisplay-Regular.ttf": "/TheGymCo-Redesign/static/media/HelveticaNowDisplay-Regular.cc17bb5a5b3a6f9fb2f2.ttf",
+    "static/media/banda3.webp": "/TheGymCo-Redesign/static/media/banda3.5b052b2b649317f4a0cc.webp",
+    "static/media/vision.jpg": "/TheGymCo-Redesign/static/media/vision.59eee1e1b46974a5cbd5.jpg",
+    "static/media/mision.jpg": "/TheGymCo-Redesign/static/media/mision.d594a1871bf6524ec85e.jpg",
+    "static/media/band.jpg": "/TheGymCo-Redesign/static/media/band.ee9844ade874479f786a.jpg",
+    "static/media/bandmuneca.jpg": "/TheGymCo-Redesign/static/media/bandmuneca.e4e33f7355197f0312e0.jpg",
+    "static/media/bandapectoral.webp": "/TheGymCo-Redesign/static/media/bandapectoral.419ae5361e967c3c97e9.webp",
+    "static/media/HardBeat.png": "/TheGymCo-Redesign/static/media/HardBeat.2ac63892e3cb228d30b2.png",
+    "static/media/TheGymCoLogo.png": "/TheGymCo-Redesign/static/media/TheGymCoLogo.0399b424191d7c3c8bbb.png",
+    "index.html": "/TheGymCo-Redesign/index.html",
+    "main.4a2ed050.css.map": "/TheGymCo-Redesign/static/css/main.4a2ed050.css.map",
+    "main.91ee9b20.js.map": "/TheGymCo-Redesign/static/js/main.91ee9b20.js.map",
+    "787.93d44e72.chunk.js.map": "/TheGymCo-Redesign/static/js/787.93d44e72.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a2ed050.css",
+    "static/js/main.91ee9b20.js"
+  ]
+}
