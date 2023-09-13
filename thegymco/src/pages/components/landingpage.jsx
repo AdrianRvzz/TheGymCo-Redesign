@@ -6,12 +6,12 @@ import  Button  from 'react-bootstrap/Button';
 import Carousel from 'react-bootstrap/Carousel'
 import {useState} from 'react'
 import Iframe from 'react-iframe'
-import {Col, Row} from 'react-bootstrap'
+import {Col, Row, Nav} from 'react-bootstrap'
 
-import Slider1 from '../../images/slider1.png'
+import Slider1 from '../../images/slider1.webp'
 import Trailer from '../../videos/trailergymco.mp4'
 import VideoTrailer from './trailervideo';
-
+import { Link } from 'react-router-dom';
 
 //import trailer from '../public/../videos/trailergymco.mp4'
 
@@ -46,7 +46,10 @@ function LandingPage(){
   </div>
 
 
-    <a href='/membresias' className='button-landing btn btn-dark '>  CONTRATA AQUÍ </a>
+   
+    <Link as={Link} to="/membresias" className='button-landing btn btn-dark'>
+    CONTRATA AQUÍ
+              </Link>
   
 </div>
         </Col>

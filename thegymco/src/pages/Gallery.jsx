@@ -21,8 +21,9 @@ function Gallery({ route }) {
   const [originalData, setOriginalData] = useState([]);
   const [collection, setCollection] = useState([]);
   const [isHiding, setIsHiding] = useState(false);
-
+  
   useEffect(() => {
+   
     const selectedData = GalleryData.find((item) => item.route === route);
     console.log(selectedData);
 
@@ -37,7 +38,7 @@ function Gallery({ route }) {
     } else {
       console.log("Default data");
     }
-  }, []);
+  }, [route]);
 
 
   // const gallery_filter = (itemData) => {
@@ -47,7 +48,7 @@ function Gallery({ route }) {
     
   //   setData(filterData);
   // };
-
+  
   const gallery_filter = (itemData) => {
     const filterData = originalData.filter((item) => item.category === itemData);
     setIsHiding(true); // Activar la animación de ocultar las imágenes

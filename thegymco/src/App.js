@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import React, { useState, useEffect } from 'react';
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route} from 'react-router-dom';
 import HomePage from './pages/HomePage.jsx';
 import Gallery from './pages/Gallery.jsx'
 import ProductPage from './pages/ProductPage.jsx'
@@ -49,11 +49,11 @@ function App() {
 
   return (
    
-    <Router>
+    <Router >
       <UserProvider value={{ user, setUser }}>
      
     <Routes>
-     
+    
       <Route path="/home" element={<HomePage />} />
       <Route path="/" element={<HomePage />} />
       <Route path="" element={<HomePage />} />

@@ -16,49 +16,50 @@ const horariosData = {
                 17: 17,
                 18: 18,
                 19: 19
+      
               },
             horario: {
               lunes: [
-                { clase: 'Body Combat', duracion: 60, horaInicio: new Date(0, 0, 0, 8, 0), logo: '/gallery/horarios/riogrande/bodycombat.png' },
+                { clase: 'Body Combat', duracion: 60, horaInicio: new Date(0, 0, 0, 8, 0), logo: './gallery/horarios/riogrande/bodycombat.png' },
                 
-                { clase: 'Body Pump', duracion: 60, horaInicio: new Date(0, 0, 0, 9, 0), logo: '/gallery/horarios/riogrande/bodypump.png' },
-                { clase: 'Zumba', duracion: 60, horaInicio: new Date(0, 0, 0, 10, 0), logo: '/gallery/horarios/riogrande/zumba.png' },
-                { clase: 'Zumba', duracion: 60, horaInicio: new Date(0, 0, 0, 13, 0), logo: '/gallery/horarios/riogrande/zumba.png' },
-                { clase: 'Zumba', duracion: 60, horaInicio: new Date(0, 0, 0, 17, 0), logo: '/gallery/horarios/riogrande/zumba.png' },
-                { clase: 'Body Combat', duracion: 60, horaInicio: new Date(0, 0, 0, 18, 0), logo: '/gallery/horarios/riogrande/bodycombat.png' },
-                { clase: 'Body Pump', duracion: 60, horaInicio: new Date(0, 0, 0, 19, 0), logo: '/gallery/horarios/riogrande/bodypump.png' },
+                { clase: 'Body Pump', duracion: 60, horaInicio: new Date(0, 0, 0, 9, 0), logo: './gallery/horarios/riogrande/bodypump.png' },
+                { clase: 'Zumba', duracion: 60, horaInicio: new Date(0, 0, 0, 10, 0), logo: './gallery/horarios/riogrande/zumba.png' },
+                { clase: 'Zumba', duracion: 60, horaInicio: new Date(0, 0, 0, 13, 0), logo: './gallery/horarios/riogrande/zumba.png' },
+                { clase: 'Zumba', duracion: 60, horaInicio: new Date(0, 0, 0, 17, 0), logo: './gallery/horarios/riogrande/zumba.png' },
+                { clase: 'Body Combat', duracion: 60, horaInicio: new Date(0, 0, 0, 18, 0), logo: './gallery/horarios/riogrande/bodycombat.png' },
+                { clase: 'Body Pump', duracion: 60, horaInicio: new Date(0, 0, 0, 19, 0), logo: './gallery/horarios/riogrande/bodypump.png' },
               ],
               martes: [
-                { clase: 'Powerband', duracion: 60, horaInicio: new Date(0, 0, 0, 8, 0), logo: '/gallery/horarios/riogrande/powerband.png' },
-                { clase: 'Yoga', duracion: 60, horaInicio: new Date(0, 0, 0, 9, 0), logo: '/gallery/horarios/riogrande/yoga.png' },
-                { clase: 'Body Pump', duracion: 60, horaInicio: new Date(0, 0, 0, 18, 0), logo: '/gallery/horarios/riogrande/bodypump.png' },
-                { clase: 'Zumba', duracion: 60, horaInicio: new Date(0, 0, 0, 19, 0), logo: '/gallery/horarios/riogrande/zumba.png' },
+                { clase: 'Powerband', duracion: 60, horaInicio: new Date(0, 0, 0, 8, 0), logo: './gallery/horarios/riogrande/powerband.png' },
+                { clase: 'Yoga', duracion: 60, horaInicio: new Date(0, 0, 0, 9, 0), logo: './gallery/horarios/riogrande/yoga.png' },
+                { clase: 'Body Pump', duracion: 60, horaInicio: new Date(0, 0, 0, 18, 0), logo: './gallery/horarios/riogrande/bodypump.png' },
+                { clase: 'Zumba', duracion: 60, horaInicio: new Date(0, 0, 0, 19, 0), logo: './gallery/horarios/riogrande/zumba.png' },
               ],
               miercoles: [
-                { clase: 'Zumba', duracion: 60, horaInicio: new Date(0, 0, 0, 8, 0), logo: '/gallery/horarios/riogrande/zumba.png' },
-                { clase: 'Body Step', duracion: 60, horaInicio: new Date(0, 0, 0, 9, 0), logo: '/gallery/horarios/riogrande/bodystep.png' },
-                { clase: 'Zumba', duracion: 60, horaInicio: new Date(0, 0, 0, 17, 0), logo: '/gallery/horarios/riogrande/zumba.png' },
-                { clase: 'Body Step', duracion: 60, horaInicio: new Date(0, 0, 0, 18, 0), logo: '/gallery/horarios/riogrande/bodystep.png' },
-                { clase: 'Body Pump', duracion: 60, horaInicio: new Date(0, 0, 0, 19, 0), logo: '/gallery/horarios/riogrande/bodypump.png' },
+                { clase: 'Zumba', duracion: 60, horaInicio: new Date(0, 0, 0, 8, 0), logo: './gallery/horarios/riogrande/zumba.png' },
+                { clase: 'Body Step', duracion: 60, horaInicio: new Date(0, 0, 0, 9, 0), logo: './gallery/horarios/riogrande/bodystep.png' },
+                { clase: 'Zumba', duracion: 60, horaInicio: new Date(0, 0, 0, 17, 0), logo: './gallery/horarios/riogrande/zumba.png' },
+                { clase: 'Body Step', duracion: 60, horaInicio: new Date(0, 0, 0, 18, 0), logo: './gallery/horarios/riogrande/bodystep.png' },
+                { clase: 'Body Pump', duracion: 60, horaInicio: new Date(0, 0, 0, 19, 0), logo: './gallery/horarios/riogrande/bodypump.png' },
                 
               ],
               jueves: [
-                { clase: 'Body Pump', duracion: 60, horaInicio: new Date(0, 0, 0, 8, 0), logo: '/gallery/horarios/riogrande/bodypump.png' },
-                { clase: 'Powerband', duracion: 60, horaInicio: new Date(0, 0, 0, 9, 0), logo: '/gallery/horarios/riogrande/powerband.png' },
-                { clase: 'Body Pump', duracion: 60, horaInicio: new Date(0, 0, 0, 18, 0), logo: '/gallery/horarios/riogrande/bodypump.png' },
-                { clase: 'Zumba', duracion: 60, horaInicio: new Date(0, 0, 0, 19, 0), logo: '/gallery/horarios/riogrande/zumba.png' },
+                { clase: 'Body Pump', duracion: 60, horaInicio: new Date(0, 0, 0, 8, 0), logo: './gallery/horarios/riogrande/bodypump.png' },
+                { clase: 'Powerband', duracion: 60, horaInicio: new Date(0, 0, 0, 9, 0), logo: './gallery/horarios/riogrande/powerband.png' },
+                { clase: 'Body Pump', duracion: 60, horaInicio: new Date(0, 0, 0, 18, 0), logo: './gallery/horarios/riogrande/bodypump.png' },
+                { clase: 'Zumba', duracion: 60, horaInicio: new Date(0, 0, 0, 19, 0), logo: './gallery/horarios/riogrande/zumba.png' },
               ],
               viernes: [
-                { clase: 'Body Combat', duracion: 60, horaInicio: new Date(0, 0, 0, 8, 0), logo: '/gallery/horarios/riogrande/bodycombat.png' },
-                { clase: 'Zumba', duracion: 60, horaInicio: new Date(0, 0, 0, 9, 0), logo: '/gallery/horarios/riogrande/zumba.png' },
-                { clase: 'Zumba', duracion: 60, horaInicio: new Date(0, 0, 0, 17, 0), logo: '/gallery/horarios/riogrande/zumba.png' },
-                { clase: 'Yoga', duracion: 60, horaInicio: new Date(0, 0, 0, 18, 0), logo: '/gallery/horarios/riogrande/yoga.png' },
+                { clase: 'Body Combat', duracion: 60, horaInicio: new Date(0, 0, 0, 8, 0), logo: './gallery/horarios/riogrande/bodycombat.png' },
+                { clase: 'Zumba', duracion: 60, horaInicio: new Date(0, 0, 0, 9, 0), logo: './gallery/horarios/riogrande/zumba.png' },
+                { clase: 'Zumba', duracion: 60, horaInicio: new Date(0, 0, 0, 17, 0), logo: './gallery/horarios/riogrande/zumba.png' },
+                { clase: 'Yoga', duracion: 60, horaInicio: new Date(0, 0, 0, 18, 0), logo: './gallery/horarios/riogrande/yoga.png' },
                 
               ],
               sabado: [
                
-                { clase: 'Zumba', duracion: 60, horaInicio: new Date(0, 0, 0, 9, 0), logo: '/gallery/horarios/riogrande/zumba.png' },
-                { clase: 'Body Pump', duracion: 60, horaInicio: new Date(0, 0, 0, 10, 0), logo: '/gallery/horarios/riogrande/bodypump.png' },
+                { clase: 'Zumba', duracion: 60, horaInicio: new Date(0, 0, 0, 9, 0), logo: './gallery/horarios/riogrande/zumba.png' },
+                { clase: 'Body Pump', duracion: 60, horaInicio: new Date(0, 0, 0, 10, 0), logo: './gallery/horarios/riogrande/bodypump.png' },
                 
                 
               ],
@@ -87,35 +88,35 @@ const horariosData = {
               },
             horario: {
               lunes: [
-                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 7, 0), logo: '/gallery/horarios/riogrande/spinning/spinning.png' },
-                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 8, 0), logo: '/gallery/horarios/riogrande/spinning/spinning.png' },
-                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 9, 0), logo: '/gallery/horarios/riogrande/spinning/spinning.png' },
-                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 17, 0), logo: '/gallery/horarios/riogrande/spinning/spinning.png' },
-                { clase: 'RPM', duracion: 60, horaInicio:  new Date(0, 0, 0, 18, 0), logo: '/gallery/horarios/riogrande/spinning/rpm.png' },
+                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 7, 0), logo: './gallery/horarios/riogrande/spinning/spinning.png' },
+                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 8, 0), logo: './gallery/horarios/riogrande/spinning/spinning.png' },
+                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 9, 0), logo: './gallery/horarios/riogrande/spinning/spinning.png' },
+                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 17, 0), logo: './gallery/horarios/riogrande/spinning/spinning.png' },
+                { clase: 'RPM', duracion: 60, horaInicio:  new Date(0, 0, 0, 18, 0), logo: './gallery/horarios/riogrande/spinning/rpm.png' },
               ],
               martes: [
-                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 7, 0), logo: '/gallery/horarios/riogrande/spinning/spinning.png' },
-                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 8, 0), logo: '/gallery/horarios/riogrande/spinning/spinning.png' },
-                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 9, 0), logo: '/gallery/horarios/riogrande/spinning/spinning.png' },
-                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 17, 0), logo: '/gallery/horarios/riogrande/spinning/spinning.png' },
-                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 18, 0), logo: '/gallery/horarios/riogrande/spinning/spinning.png' },
+                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 7, 0), logo: './gallery/horarios/riogrande/spinning/spinning.png' },
+                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 8, 0), logo: './gallery/horarios/riogrande/spinning/spinning.png' },
+                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 9, 0), logo: './gallery/horarios/riogrande/spinning/spinning.png' },
+                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 17, 0), logo: './gallery/horarios/riogrande/spinning/spinning.png' },
+                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 18, 0), logo: './gallery/horarios/riogrande/spinning/spinning.png' },
               ],
               miercoles: [
-                { clase: 'RPM', duracion: 60, horaInicio:  new Date(0, 0, 0, 8, 0), logo: '/gallery/horarios/riogrande/spinning/rpm.png' },
-                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 9, 0), logo: '/gallery/horarios/riogrande/spinning/spinning.png' },
-                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 17, 0), logo: '/gallery/horarios/riogrande/spinning/spinning.png' },
-                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 18, 0), logo: '/gallery/horarios/riogrande/spinning/spinning.png' },
+                { clase: 'RPM', duracion: 60, horaInicio:  new Date(0, 0, 0, 8, 0), logo: './gallery/horarios/riogrande/spinning/rpm.png' },
+                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 9, 0), logo: './gallery/horarios/riogrande/spinning/spinning.png' },
+                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 17, 0), logo: './gallery/horarios/riogrande/spinning/spinning.png' },
+                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 18, 0), logo: './gallery/horarios/riogrande/spinning/spinning.png' },
               ],
               jueves: [
                 
-                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 8, 0), logo: '/gallery/horarios/riogrande/spinning/spinning.png' },
-                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 9, 0), logo: '/gallery/horarios/riogrande/spinning/spinning.png' },
-                { clase: 'RPM', duracion: 60, horaInicio:  new Date(0, 0, 0, 17, 0), logo: '/gallery/horarios/riogrande/spinning/rpm.png' },
+                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 8, 0), logo: './gallery/horarios/riogrande/spinning/spinning.png' },
+                { clase: 'Spinning', duracion: 60, horaInicio:  new Date(0, 0, 0, 9, 0), logo: './gallery/horarios/riogrande/spinning/spinning.png' },
+                { clase: 'RPM', duracion: 60, horaInicio:  new Date(0, 0, 0, 17, 0), logo: './gallery/horarios/riogrande/spinning/rpm.png' },
                 
               ],
               viernes: [
                 
-                { clase: 'RPM', duracion: 60, horaInicio:  new Date(0, 0, 0, 8, 0), logo: '/gallery/horarios/riogrande/spinning/rpm.png' },
+                { clase: 'RPM', duracion: 60, horaInicio:  new Date(0, 0, 0, 8, 0), logo: './gallery/horarios/riogrande/spinning/rpm.png' },
                 
                 
               ],
@@ -135,7 +136,7 @@ const horariosData = {
               },
             horario: {
               lunes: [
-                { clase: 'PowerBand', duracion: 60, horaInicio:  new Date(0, 0, 0, 18, 0), logo: '/gallery/horarios/riogrande/funcional/powerband.png' },
+                { clase: 'PowerBand', duracion: 60, horaInicio:  new Date(0, 0, 0, 18, 0), logo: './gallery/horarios/riogrande/funcional/powerband.png' },
                 { clase: 'Crossfit', duracion: 60, horaInicio:  new Date(0, 0, 0, 19, 0), logo: '' },
                 
               ],
@@ -181,31 +182,31 @@ const horariosData = {
                       clase: 'Body Pump',
                       duracion: 60,
                       horaInicio: new Date(0, 0, 0, 9, 0),
-                      logo: '/gallery/horarios/lastorres/bodypump.png'
+                      logo: './gallery/horarios/lastorres/bodypump.png'
                     },
                     {
                       clase: 'Yoga',
                       duracion: 60,
                       horaInicio: new Date(0, 0, 0, 10, 0),
-                      logo: '/gallery/horarios/lastorres/yoga.png'
+                      logo: './gallery/horarios/lastorres/yoga.png'
                     },
                     {
                       clase: 'Body Pump',
                       duracion: 60,
                       horaInicio: new Date(0, 0, 0, 17, 0),
-                      logo: '/gallery/horarios/lastorres/bodypump.png'
+                      logo: './gallery/horarios/lastorres/bodypump.png'
                     },
                     {
                       clase: 'Body Combat',
                       duracion: 60,
                       horaInicio: new Date(0, 0, 0, 18, 0),
-                      logo: '/gallery/horarios/lastorres/bodycombat.png'
+                      logo: './gallery/horarios/lastorres/bodycombat.png'
                     },
                     {
                       clase: 'Zumba',
                       duracion: 60,
                       horaInicio: new Date(0, 0, 0, 19, 0),
-                      logo: '/gallery/horarios/lastorres/zumba.png'
+                      logo: './gallery/horarios/lastorres/zumba.png'
                     }
                   ],
                   martes: [
@@ -213,31 +214,31 @@ const horariosData = {
                       clase: 'Zumba',
                       duracion: 60,
                       horaInicio: new Date(0, 0, 0, 8, 0),
-                      logo: '/gallery/horarios/lastorres/zumba.png'
+                      logo: './gallery/horarios/lastorres/zumba.png'
                     },
                     {
                       clase: 'Powerband',
                       duracion: 60,
                       horaInicio: new Date(0, 0, 0, 9, 0),
-                      logo: '/gallery/horarios/lastorres/powerband.png'
+                      logo: './gallery/horarios/lastorres/powerband.png'
                     },
                     {
                       clase: 'Zumba',
                       duracion: 60,
                       horaInicio: new Date(0, 0, 0, 17, 0),
-                      logo: '/gallery/horarios/lastorres/zumba.png'
+                      logo: './gallery/horarios/lastorres/zumba.png'
                     },
                     {
                       clase: 'Powerband',
                       duracion: 60,
                       horaInicio: new Date(0, 0, 0, 18, 0),
-                      logo: '/gallery/horarios/lastorres/powerband.png'
+                      logo: './gallery/horarios/lastorres/powerband.png'
                     },
                     {
                       clase: 'Body Pump',
                       duracion: 60,
                       horaInicio: new Date(0, 0, 0, 19, 0),
-                      logo: '/gallery/horarios/lastorres/bodypump.png'
+                      logo: './gallery/horarios/lastorres/bodypump.png'
                     }
                   ],
                   miercoles: [
@@ -245,25 +246,25 @@ const horariosData = {
                       clase: 'Body Combat',
                       duracion: 60,
                       horaInicio: new Date(0, 0, 0, 8, 0),
-                      logo: '/gallery/horarios/lastorres/bodycombat.png'
+                      logo: './gallery/horarios/lastorres/bodycombat.png'
                     },
                     {
                       clase: 'Yoga',
                       duracion: 60,
                       horaInicio: new Date(0, 0, 0, 9, 0),
-                      logo: '/gallery/horarios/lastorres/yoga.png'
+                      logo: './gallery/horarios/lastorres/yoga.png'
                     },
                     {
                       clase: 'Zumba',
                       duracion: 60,
                       horaInicio: new Date(0, 0, 0, 18, 0),
-                      logo: '/gallery/horarios/lastorres/zumba.png'
+                      logo: './gallery/horarios/lastorres/zumba.png'
                     },
                     {
                       clase: 'Pilates',
                       duracion: 60,
                       horaInicio: new Date(0, 0, 0, 19, 0),
-                      logo: '/gallery/horarios/lastorres/pilates.png'
+                      logo: './gallery/horarios/lastorres/pilates.png'
                     }
                   ],
                   jueves: [
@@ -271,25 +272,25 @@ const horariosData = {
                       clase: 'Body Pump',
                       duracion: 60,
                       horaInicio: new Date(0, 0, 0, 8, 0),
-                      logo: '/gallery/horarios/lastorres/bodypump.png'
+                      logo: './gallery/horarios/lastorres/bodypump.png'
                     },
                     {
                       clase: 'Zumba',
                       duracion: 60,
                       horaInicio: new Date(0, 0, 0, 9, 0),
-                      logo: '/gallery/horarios/lastorres/zumba.png'
+                      logo: './gallery/horarios/lastorres/zumba.png'
                     },
                     {
                       clase: 'Body Pump',
                       duracion: 60,
                       horaInicio: new Date(0, 0, 0, 18, 0),
-                      logo: '/gallery/horarios/lastorres/bodypump.png'
+                      logo: './gallery/horarios/lastorres/bodypump.png'
                     },
                     {
                       clase: 'Body Combat',
                       duracion: 60,
                       horaInicio: new Date(0, 0, 0, 19, 0),
-                      logo: '/gallery/horarios/lastorres/bodycombat.png'
+                      logo: './gallery/horarios/lastorres/bodycombat.png'
                     }
                   ],
                   viernes: [
@@ -297,19 +298,19 @@ const horariosData = {
                       clase: 'Zumba',
                       duracion: 60,
                       horaInicio: new Date(0, 0, 0, 8, 0),
-                      logo: '/gallery/horarios/lastorres/zumba.png'
+                      logo: './gallery/horarios/lastorres/zumba.png'
                     },
                     {
                       clase: 'Zumba',
                       duracion: 60,
                       horaInicio: new Date(0, 0, 0, 17, 0),
-                      logo: '/gallery/horarios/lastorres/zumba.png'
+                      logo: './gallery/horarios/lastorres/zumba.png'
                     },
                     {
                       clase: 'Powerband',
                       duracion: 60,
                       horaInicio: new Date(0, 0, 0, 18, 0),
-                      logo: '/gallery/horarios/lastorres/powerband.png'
+                      logo: './gallery/horarios/lastorres/powerband.png'
                     }
                   ],
                   sabado: [
@@ -317,7 +318,7 @@ const horariosData = {
                       clase: 'Zumba',
                       duracion: 60,
                       horaInicio: new Date(0, 0, 0, 10, 0),
-                      logo: '/gallery/horarios/lastorres/zumba.png'
+                      logo: './gallery/horarios/lastorres/zumba.png'
                     }
                   ]
                 }
@@ -340,27 +341,27 @@ const horariosData = {
                 },
                 horario: {
                     lunes: [
-                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 8, 0), logo: '/gallery/horarios/lastorres/spinning/spinning.png' },
-                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 9, 0), logo: '/gallery/horarios/lastorres/spinning/spinning.png' },
-                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 18, 0), logo: '/gallery/horarios/lastorres/spinning/spinning.png' }
+                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 8, 0), logo: './gallery/horarios/lastorres/spinning/spinning.png' },
+                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 9, 0), logo: './gallery/horarios/lastorres/spinning/spinning.png' },
+                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 18, 0), logo: './gallery/horarios/lastorres/spinning/spinning.png' }
                       ],
                       martes: [
-                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 8, 0), logo: '/gallery/horarios/lastorres/spinning/spinning.png' },
-                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 9, 0), logo: '/gallery/horarios/lastorres/spinning/spinning.png' },
-                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 18, 0), logo: '/gallery/horarios/lastorres/spinning/spinning.png' }
+                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 8, 0), logo: './gallery/horarios/lastorres/spinning/spinning.png' },
+                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 9, 0), logo: './gallery/horarios/lastorres/spinning/spinning.png' },
+                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 18, 0), logo: './gallery/horarios/lastorres/spinning/spinning.png' }
                       ],
                       miercoles: [
-                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 8, 0), logo: '/gallery/horarios/lastorres/spinning/spinning.png' },
-                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 9, 0), logo: '/gallery/horarios/lastorres/spinning/spinning.png' },
-                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 18, 0), logo: '/gallery/horarios/lastorres/spinning/spinning.png' }
+                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 8, 0), logo: './gallery/horarios/lastorres/spinning/spinning.png' },
+                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 9, 0), logo: './gallery/horarios/lastorres/spinning/spinning.png' },
+                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 18, 0), logo: './gallery/horarios/lastorres/spinning/spinning.png' }
                       ],
                       jueves: [
-                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 8, 0), logo: '/gallery/horarios/lastorres/spinning/spinning.png' },
-                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 9, 0), logo: '/gallery/horarios/lastorres/spinning/spinning.png' },
-                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 18, 0), logo: '/gallery/horarios/lastorres/spinning/spinning.png' }
+                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 8, 0), logo: './gallery/horarios/lastorres/spinning/spinning.png' },
+                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 9, 0), logo: './gallery/horarios/lastorres/spinning/spinning.png' },
+                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 18, 0), logo: './gallery/horarios/lastorres/spinning/spinning.png' }
                       ],
                       viernes: [
-                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 8, 0), logo: '/gallery/horarios/lastorres/spinning/spinning.png' }
+                        { clase: 'Spinning', duracion: 60, horaInicio: new Date(0, 0, 0, 8, 0), logo: './gallery/horarios/lastorres/spinning/spinning.png' }
                       ]
                 }
             },

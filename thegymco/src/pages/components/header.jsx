@@ -13,6 +13,7 @@ import Button from 'react-bootstrap/Button';
 import Image from 'react-bootstrap/Image'
 import LoginUsuarioModal from './ModalLogin';
 import RegistroUsuarioModal from './ModalRegistro';
+import { Link } from 'react-router-dom';
 
 
 
@@ -59,127 +60,173 @@ function NavBar() {
   
   return (
     <>
-    <Navbar
-      className="shadow-sm"
-      fixed="top"
-      collapseOnSelect
-      expand="lg"
-      bg="black"
-      variant="dark"
-    >
-      <Container className="text-uppercase ">
-        <Navbar.Brand href="../home" className="d-flex flex-column">
-          <Image
-            src={TheGymCoLogo}
-            alt="The Gym Co"
-            height="50"
-            className="d-inline-block align-top"
-          />
-          {/* <Image
+      <Navbar
+        className="shadow-sm"
+        fixed="top"
+        collapseOnSelect
+        expand="lg"
+        bg="black"
+        variant="dark"
+      >
+        <Container className="text-uppercase ">
+          <Navbar.Brand as={Link} to="/home" className="d-flex flex-column">
+            <Image
+              src={TheGymCoLogo}
+              alt="The Gym Co"
+              height="50"
+              className="d-inline-block align-top"
+            />
+            {/* <Image
         src={HardBeat}
          alt="HardBeat"
          height="50"
          className="d-inline-block align-top"
              /> */}
-        </Navbar.Brand>
+          </Navbar.Brand>
 
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto me-auto">
-            <Nav.Link href="/">Inicio</Nav.Link>
-            <NavDropdown title="Galeria" id="collasible-nav-dropdown">
-              <NavDropdown.Item
-                href="/galeria/riogrande "
-                className="btn-clicked"
-              >
-                Río Grande
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                href="/galeria/lastorres"
-                className="btn-clicked"
-              >
-                Las Torres
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                href="/galeria/hardbeat "
-                className="btn-clicked"
-              >
-                Hard Beat
-              </NavDropdown.Item>
-            </NavDropdown>
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="ms-auto me-auto">
+              <Nav.Link as={Link} to="/">
+                Inicio
+              </Nav.Link>
 
-            <Nav.Link href="../beat">Beat</Nav.Link>
+              <NavDropdown title="Galeria" id="collasible-nav-dropdown">
 
-            <NavDropdown title="Clases y horarios" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="../clases" className="btn-clicked">
-                Clases
-              </NavDropdown.Item>
-
-              <Dropdown.Menu show>
-                <Dropdown.Header>Horarios</Dropdown.Header>
-                <Dropdown.Item
-                  href="/sucursal/riogrande"
+                <NavDropdown.Item
+                  as={Link}
+                  to="/galeria/riogrande"
                   className="btn-clicked"
                   eventKey="1"
+                  
                 >
                   Río Grande
-                </Dropdown.Item>
-                <Dropdown.Item
-                  href="/sucursal/lastorres"
+                </NavDropdown.Item>
+                <NavDropdown.Item
+                  as={Link}
+                  to="/galeria/lastorres"
                   className="btn-clicked"
                   eventKey="2"
+                 
                 >
                   Las Torres
-                </Dropdown.Item>
-                <Dropdown.Item
-                  href="/sucursal/hardbeat"
+                </NavDropdown.Item>
+                <NavDropdown.Item
+                  as={Link}
+                  to="/galeria/hardbeat"
                   className="btn-clicked"
                   eventKey="3"
+                  
                 >
                   Hard Beat
-                </Dropdown.Item>
-              </Dropdown.Menu>
-            </NavDropdown>
+                </NavDropdown.Item>
+              </NavDropdown>
 
-            <Nav.Link href="../servicios">Servicios</Nav.Link>
-          </Nav>
+              <Nav.Link as={Link} to="/beat">
+                Beat
+              </Nav.Link>
 
-          <Nav>
-         
-        <Dropdown align="end">
-    <Dropdown.Toggle variant="dark btn-clicked-link" id="user-dropdown">
-      <FaUserAlt className='text-white fs-5'/>
-    </Dropdown.Toggle>
-    <Dropdown.Menu>
-      {user ? (
-        <>
-          <Dropdown.Item disabled> {user.email}</Dropdown.Item>
-          <Dropdown.Divider />
-          <Dropdown.Item href="../usuario" className="btn-clicked">Información</Dropdown.Item>
-          <Dropdown.Item onClick={logout} className="btn-clicked">Cerrar sesión</Dropdown.Item>
-        </>
-      ) : (
-        <>
-          <Dropdown.Item className="btn-clicked" onClick={openLoginModal}>Iniciar sesión</Dropdown.Item>
-          <Dropdown.Item className="btn-clicked" onClick={openRegistroModal}>Registrarse</Dropdown.Item>
-        </>
-      )}
-    </Dropdown.Menu>
-  </Dropdown>
-            
-            
-          </Nav>
-        </Navbar.Collapse>
-        
-      </Container>
-      
+              <NavDropdown
+                title="Clases y horarios"
+                id="collasible-nav-dropdown"
+              >
+                <NavDropdown.Item
+                  as={Link}
+                  to="/clases"
+                  className="btn-clicked"
+                >
+                  Clases
+                </NavDropdown.Item>
+                <Dropdown.Menu show>
+                  <Dropdown.Header>Horarios</Dropdown.Header>
+                  <Dropdown.Item
+                    as={Link}
+                    to="/sucursal/riogrande"
+                    className="btn-clicked"
+                    eventKey="1"
+                  >
+                    Río Grande
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    as={Link}
+                    to="/sucursal/lastorres"
+                    className="btn-clicked"
+                    eventKey="2"
+                  >
+                    Las Torres
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    as={Link}
+                    to="/sucursal/hardbeat"
+                    className="btn-clicked"
+                    eventKey="3"
+                  >
+                    Hard Beat
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </NavDropdown>
 
-    </Navbar>
-    <LoginUsuarioModal showModal={showLoginModal} closeModal={closeLoginModal} />
-      <RegistroUsuarioModal showModal={showRegistroModal} closeModal={closeRegistroModal} />
+              <Nav.Link as={Link} to="/servicios">
+                Servicios
+              </Nav.Link>
+            </Nav>
+
+            <Nav>
+              <Dropdown align="end">
+                <Dropdown.Toggle
+                  variant="dark btn-clicked-link"
+                  id="user-dropdown"
+                >
+                  <FaUserAlt className="text-white fs-5" />
+                </Dropdown.Toggle>
+                <Dropdown.Menu>
+                  {user ? (
+                    <>
+                      <Dropdown.Item disabled> {user.email}</Dropdown.Item>
+                      <Dropdown.Divider />
+                      <Dropdown.Item
+                        as={Link}
+                        to="/usuario"
+                        className="btn-clicked"
+                      >
+                        Información
+                      </Dropdown.Item>
+                      <Dropdown.Item onClick={logout} className="btn-clicked">
+                        Cerrar sesión
+                      </Dropdown.Item>
+                    </>
+                  ) : (
+                    <>
+                      <Dropdown.Item
+                        className="btn-clicked"
+                        onClick={openLoginModal}
+                      >
+                        Iniciar sesión
+                      </Dropdown.Item>
+                      <Dropdown.Item
+                        className="btn-clicked"
+                        onClick={openRegistroModal}
+                      >
+                        Registrarse
+                      </Dropdown.Item>
+                    </>
+                  )}
+                </Dropdown.Menu>
+              </Dropdown>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+      <LoginUsuarioModal
+        showModal={showLoginModal}
+        closeModal={closeLoginModal}
+      />
+      <RegistroUsuarioModal
+        showModal={showRegistroModal}
+        closeModal={closeRegistroModal}
+      />
     </>
-    
   );
 }
 

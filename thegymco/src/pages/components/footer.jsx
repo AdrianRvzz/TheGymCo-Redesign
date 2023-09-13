@@ -4,7 +4,7 @@ import TheGymCoLogo from '../../images/logos/TheGymCoLogo.png'; // Importa la im
 import Image from 'react-bootstrap/Image'
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 import { Container, Row, Col, Dropdown } from 'react-bootstrap';
-
+import { Link } from 'react-router-dom';
 
 function footer(){
 
@@ -15,7 +15,7 @@ function footer(){
 
     
 
-      <a href="/" className=" col  d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <a as={Link} to="/home" className=" col  d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
       <Image
         src={TheGymCoLogo}
          alt="The Gym Co"
@@ -38,21 +38,21 @@ function footer(){
       
 
       <ul className="nav col justify-content-end">
-        <li className="nav-item">
-          <a href="/nosotros" className="nav-link px-2 text-white">Nosotros</a>
-        </li>
-        <li className="nav-item">
-          <a href="/sucursales" className="nav-link px-2 text-white">Sucursales</a>
-        </li>
-        <li className="nav-item">
-          <a href="/contacto" className="nav-link px-2 text-white">Contáctanos</a>
-        </li>
-        <li className="nav-item">
-          <a href="/mision" className="nav-link px-2 text-white">Misión</a>
-        </li>
-        <li className="nav-item">
-          <a href="/vision" className="nav-link px-2 text-white">Visión</a>
-        </li>
+      <li className="nav-item">
+  <Link to="/nosotros" className="nav-link px-2 text-white">Nosotros</Link>
+</li>
+<li className="nav-item">
+  <Link to="/sucursales" className="nav-link px-2 text-white">Sucursales</Link>
+</li>
+<li className="nav-item">
+  <Link to="/contacto" className="nav-link px-2 text-white">Contáctanos</Link>
+</li>
+<li className="nav-item">
+  <Link to="/mision" className="nav-link px-2 text-white">Misión</Link>
+</li>
+<li className="nav-item">
+  <Link to="/vision" className="nav-link px-2 text-white">Visión</Link>
+</li>
       </ul>
       
     </footer>
